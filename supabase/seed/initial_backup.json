@@ -1,0 +1,1310 @@
+{
+ "app": "pillars-kpi-portal",
+ "v": 4,
+ "date": "2026-11-01",
+ "users": [
+  {
+   "id": "p1",
+   "sno": 4,
+   "name": "VENKAT",
+   "designation": "Executive Manager- CMD",
+   "role": "member",
+   "reportsTo": "o1",
+   "viewAll": true
+  },
+  {
+   "id": "o1",
+   "sno": 1,
+   "name": "C.PRADEEP",
+   "designation": "Founder & CMD",
+   "role": "member",
+   "reportsTo": "",
+   "viewAll": true
+  },
+  {
+   "id": "o2",
+   "sno": 2,
+   "name": "A.KRISHNA PRAKASH",
+   "designation": "COO",
+   "role": "member",
+   "reportsTo": "o1",
+   "viewAll": true
+  },
+  {
+   "id": "o3",
+   "sno": 3,
+   "name": "BALAJI",
+   "designation": "CHR",
+   "role": "member",
+   "reportsTo": "o1"
+  },
+  {
+   "id": "o5",
+   "sno": 5,
+   "name": "JEGADEESH",
+   "designation": "GM - Finance",
+   "role": "member",
+   "reportsTo": "o1"
+  },
+  {
+   "id": "o6",
+   "sno": 6,
+   "name": "SATHISH",
+   "designation": "GM - Procurement",
+   "role": "member",
+   "reportsTo": "o1"
+  },
+  {
+   "id": "o7",
+   "sno": 7,
+   "name": "DEVARAJ",
+   "designation": "AGM - Audit",
+   "role": "member",
+   "reportsTo": "o1"
+  },
+  {
+   "id": "o8",
+   "sno": 8,
+   "name": "POOVARASAN",
+   "designation": "AGM - Production U-1",
+   "role": "member",
+   "reportsTo": "o2"
+  },
+  {
+   "id": "o9",
+   "sno": 9,
+   "name": "ANGU PRAKASH",
+   "designation": "AGM - Production U-2",
+   "role": "member",
+   "reportsTo": "o2"
+  },
+  {
+   "id": "o10",
+   "sno": 10,
+   "name": "RAVI KUMAR",
+   "designation": "AGM - Quality",
+   "role": "member",
+   "reportsTo": "o2"
+  },
+  {
+   "id": "o11",
+   "sno": 11,
+   "name": "SRINIVASAN",
+   "designation": "Manager - Maintenance",
+   "role": "member",
+   "reportsTo": "o2"
+  },
+  {
+   "id": "o12",
+   "sno": 12,
+   "name": "KAMATCHI",
+   "designation": "Manager - Sales",
+   "role": "member",
+   "reportsTo": "o1"
+  },
+  {
+   "id": "mgmt",
+   "sno": 0,
+   "name": "MANAGEMENT",
+   "designation": "Management",
+   "role": "management",
+   "reportsTo": "o1"
+  },
+  {
+   "id": "o13",
+   "sno": 13,
+   "name": "MAHESH",
+   "designation": "AGM - Sales",
+   "role": "member",
+   "reportsTo": "o1"
+  },
+  {
+   "id": "o14",
+   "sno": 14,
+   "name": "SARAVANAN",
+   "designation": "Manager - Accounts",
+   "role": "member",
+   "reportsTo": "o5"
+  }
+ ],
+ "months": {
+  "2026-11": {
+   "people": [
+    {
+     "id": "o1",
+     "sno": 1,
+     "name": "C.PRADEEP",
+     "designation": "Founder & CMD",
+     "kpis": [
+      {
+       "id": "k1_1",
+       "name": "Capacity Expansion Polymer /Quarter",
+       "uom": "MT",
+       "monthly": 300,
+       "min": 100,
+       "freq": "Quarterly",
+       "prorate": false,
+       "weight": 15
+      },
+      {
+       "id": "k1_2",
+       "name": "Major Customer & Sales Dvlpt /Qtr",
+       "uom": "Nos",
+       "monthly": 300,
+       "min": 100,
+       "freq": "Quarterly",
+       "prorate": false,
+       "weight": 15
+      },
+      {
+       "id": "k1_3",
+       "name": "New Strategy Tie Up/Quarter",
+       "uom": "Nos",
+       "monthly": 1,
+       "min": 100,
+       "freq": "Quarterly",
+       "prorate": false,
+       "weight": 14
+      },
+      {
+       "id": "k1_4",
+       "name": "New Culture Development/Quarter",
+       "uom": "Nos",
+       "monthly": 1,
+       "min": 100,
+       "freq": "Quarterly",
+       "prorate": false,
+       "weight": 14
+      },
+      {
+       "id": "k1_5",
+       "name": "New System Development/Quarter",
+       "uom": "Nos",
+       "monthly": 1,
+       "min": 100,
+       "freq": "Quarterly",
+       "prorate": false,
+       "weight": 14
+      },
+      {
+       "id": "k1_6",
+       "name": "New Unit Development /Year",
+       "uom": "Nos",
+       "monthly": 1,
+       "min": 100,
+       "freq": "Yearly",
+       "prorate": false,
+       "weight": 14
+      },
+      {
+       "id": "kteam",
+       "name": "Team Overall KPI Score",
+       "freq": "Monthly",
+       "uom": "%",
+       "monthly": 100,
+       "min": 90,
+       "prorate": false,
+       "module": "team",
+       "weight": 14
+      }
+     ]
+    },
+    {
+     "id": "o2",
+     "sno": 2,
+     "name": "A.KRISHNA PRAKASH",
+     "designation": "COO",
+     "kpis": [
+      {
+       "id": "k2_1",
+       "name": "Online Production",
+       "uom": "MT",
+       "monthly": 2240,
+       "min": 90,
+       "freq": "Daily",
+       "prorate": true,
+       "weight": 12
+      },
+      {
+       "id": "k2_2",
+       "name": "Extruder Production",
+       "uom": "MT",
+       "monthly": 1501,
+       "min": 90,
+       "freq": "Daily",
+       "prorate": true,
+       "weight": 11
+      },
+      {
+       "id": "k2_3",
+       "name": "New Product Development/Month",
+       "uom": "Nos",
+       "monthly": 1,
+       "min": 100,
+       "freq": "Monthly",
+       "prorate": false,
+       "weight": 11
+      },
+      {
+       "id": "k2_4",
+       "name": "Production Cost Cut by Process Dvlpt/Month",
+       "uom": "Nos",
+       "monthly": 1,
+       "min": 80,
+       "freq": "Monthly",
+       "prorate": false,
+       "weight": 11
+      },
+      {
+       "id": "k2_5",
+       "name": "Production Cost Cut by RM Dvlpt/Quarter",
+       "uom": "Nos",
+       "monthly": 1,
+       "min": 80,
+       "freq": "Quarterly",
+       "prorate": false,
+       "weight": 11
+      },
+      {
+       "id": "k2_6",
+       "name": "Production Cost Cut by Mcry Dvlpt/Quarter",
+       "uom": "Nos",
+       "monthly": 1,
+       "min": 80,
+       "freq": "Quarterly",
+       "prorate": false,
+       "weight": 11
+      },
+      {
+       "id": "k2_7",
+       "name": "Process Development/Month",
+       "uom": "Nos",
+       "monthly": 1,
+       "min": 80,
+       "freq": "Monthly",
+       "prorate": false,
+       "weight": 11
+      },
+      {
+       "id": "k2_8",
+       "name": "Direct Expense Cost attained %",
+       "uom": "%",
+       "monthly": 98,
+       "min": 95,
+       "freq": "Monthly",
+       "prorate": false,
+       "agg": "latest",
+       "weight": 11
+      },
+      {
+       "id": "k2_9",
+       "name": "Product Quality Development/Month",
+       "uom": "Nos",
+       "monthly": 1,
+       "min": 90,
+       "freq": "Monthly",
+       "prorate": false,
+       "weight": 11
+      }
+     ]
+    },
+    {
+     "id": "o3",
+     "sno": 3,
+     "name": "BALAJI",
+     "designation": "CHR",
+     "kpis": [
+      {
+       "id": "k3_1",
+       "name": "KMPs KPI review & Report submission",
+       "uom": "Nos",
+       "monthly": 25,
+       "min": 100,
+       "freq": "Daily",
+       "prorate": true,
+       "weight": 13
+      },
+      {
+       "id": "k3_2",
+       "name": "All Staff Performance Appraisal & Action Plan",
+       "uom": "Nos",
+       "monthly": 1,
+       "min": 100,
+       "freq": "Monthly",
+       "prorate": false,
+       "weight": 13
+      },
+      {
+       "id": "k3_3",
+       "name": "Skill Mapping & Training Plan submission",
+       "uom": "Nos",
+       "monthly": 1,
+       "min": 100,
+       "freq": "Monthly",
+       "prorate": false,
+       "weight": 13
+      },
+      {
+       "id": "k3_4",
+       "name": "KMP Development Program track submission",
+       "uom": "Nos",
+       "monthly": 1,
+       "min": 100,
+       "freq": "Monthly",
+       "prorate": false,
+       "weight": 13
+      },
+      {
+       "id": "k3_5",
+       "name": "Compliance tracker Attained %",
+       "uom": "%",
+       "monthly": 100,
+       "min": 90,
+       "freq": "Monthly",
+       "prorate": false,
+       "agg": "latest",
+       "weight": 12
+      },
+      {
+       "id": "k3_6",
+       "name": "Insurance Policy with Validity",
+       "uom": "Nos",
+       "monthly": 1,
+       "min": 100,
+       "freq": "Monthly",
+       "prorate": false,
+       "weight": 12
+      },
+      {
+       "id": "k3_7",
+       "name": "All Approvals with Validity",
+       "uom": "Nos",
+       "monthly": 1,
+       "min": 100,
+       "freq": "Monthly",
+       "prorate": false,
+       "weight": 12
+      },
+      {
+       "id": "k3_8",
+       "name": "ESG Compliance attained %",
+       "uom": "%",
+       "monthly": 90,
+       "min": 90,
+       "freq": "Weekly",
+       "prorate": false,
+       "agg": "latest",
+       "weight": 12
+      }
+     ]
+    },
+    {
+     "id": "p1",
+     "sno": 4,
+     "name": "VENKAT",
+     "designation": "Executive Manager- CMD",
+     "kpis": [
+      {
+       "id": "k1",
+       "name": "Meeting Compliance %",
+       "freq": "Daily",
+       "uom": "%",
+       "monthly": 100,
+       "min": 90,
+       "prorate": true,
+       "module": "meeting",
+       "meetRule": "compliance",
+       "weight": 12
+      },
+      {
+       "id": "k2",
+       "name": "CMD Monthly MIS meetings MOM compliance + Task maintanence",
+       "freq": "Monthly",
+       "uom": "Nos",
+       "monthly": 7,
+       "min": 100,
+       "prorate": false,
+       "module": "meeting",
+       "meetRule": "count",
+       "weight": 11
+      },
+      {
+       "id": "k3",
+       "name": "New System Dev. & Initiatives /Month",
+       "freq": "Monthly",
+       "uom": "Nos",
+       "monthly": 1,
+       "min": 100,
+       "prorate": false,
+       "weight": 11
+      },
+      {
+       "id": "k4",
+       "name": "Linkedin 4 Post & Monthly 1 News Paper email compliance",
+       "freq": "Weekly",
+       "uom": "Nos",
+       "monthly": 5,
+       "min": 80,
+       "prorate": false,
+       "weight": 11
+      },
+      {
+       "id": "k5",
+       "name": "AI training session to KMPs ",
+       "freq": "Weekly",
+       "uom": "Nos",
+       "monthly": 4,
+       "min": 80,
+       "prorate": false,
+       "weight": 11
+      },
+      {
+       "id": "k6",
+       "name": "Task complaince % report of all KMPs- Ishwarya",
+       "freq": "Monthly",
+       "uom": "Nos",
+       "monthly": 1,
+       "min": 100,
+       "prorate": false,
+       "weight": 11
+      },
+      {
+       "id": "k7",
+       "name": "Customer Retention - Visits",
+       "freq": "Monthly",
+       "uom": "Nos",
+       "monthly": 1,
+       "min": 100,
+       "prorate": false,
+       "weight": 11
+      },
+      {
+       "id": "k8",
+       "name": "Brand Promotion - Events",
+       "freq": "Monthly",
+       "uom": "Nos",
+       "monthly": 1,
+       "min": 100,
+       "prorate": false,
+       "weight": 11
+      },
+      {
+       "id": "k9",
+       "name": "New Network Developments",
+       "freq": "Monthly",
+       "uom": "Nos",
+       "monthly": 1,
+       "min": 100,
+       "prorate": false,
+       "weight": 11
+      }
+     ]
+    },
+    {
+     "id": "o5",
+     "sno": 5,
+     "name": "JEGADEESH",
+     "designation": "GM - Finance",
+     "kpis": [
+      {
+       "id": "k5_1",
+       "name": "FIFO report submission 1 week before for M+1 month",
+       "uom": "Nos",
+       "monthly": 1,
+       "min": 100,
+       "freq": "Monthly",
+       "prorate": false,
+       "weight": 15
+      },
+      {
+       "id": "k5_2",
+       "name": "Financial MIS report submission before 10th of every month to Audit",
+       "uom": "Nos",
+       "monthly": 1,
+       "min": 100,
+       "freq": "Monthly",
+       "prorate": false,
+       "weight": 15
+      },
+      {
+       "id": "k5_3",
+       "name": "Creditors & Debtors Ageing Maintenance",
+       "uom": "%",
+       "monthly": 100,
+       "min": 90,
+       "freq": "Monthly",
+       "prorate": false,
+       "agg": "latest",
+       "weight": 14
+      },
+      {
+       "id": "k5_4",
+       "name": "Fixed Cost Budget Maintenance compliance %",
+       "uom": "%",
+       "monthly": 100,
+       "min": 95,
+       "freq": "Monthly",
+       "prorate": false,
+       "agg": "latest",
+       "weight": 14
+      },
+      {
+       "id": "k5_5",
+       "name": "Company Secretarial Compliance report submission",
+       "uom": "%",
+       "monthly": 100,
+       "min": 100,
+       "freq": "Monthly",
+       "prorate": false,
+       "agg": "latest",
+       "weight": 14
+      },
+      {
+       "id": "k5_6",
+       "name": "RM vendor Payment compliance %",
+       "uom": "%",
+       "monthly": 100,
+       "min": 90,
+       "freq": "Monthly",
+       "prorate": false,
+       "agg": "latest",
+       "weight": 14
+      },
+      {
+       "id": "k5_7",
+       "name": "GM vendor Payment compliance %",
+       "uom": "%",
+       "monthly": 100,
+       "min": 90,
+       "freq": "Monthly",
+       "prorate": false,
+       "agg": "latest",
+       "weight": 14
+      }
+     ]
+    },
+    {
+     "id": "o6",
+     "sno": 6,
+     "name": "SATHISH",
+     "designation": "GM - Procurement",
+     "kpis": [
+      {
+       "id": "k6_1",
+       "name": "MRP Required qty Vs Actual attained qty - Unit 1",
+       "uom": "MT",
+       "monthly": 1450,
+       "min": 90,
+       "freq": "Daily",
+       "prorate": true,
+       "weight": 13
+      },
+      {
+       "id": "k6_2",
+       "name": "MRP Required qty Vs Actual attained qty - Unit 2",
+       "uom": "MT",
+       "monthly": 450,
+       "min": 90,
+       "freq": "Daily",
+       "prorate": true,
+       "weight": 13
+      },
+      {
+       "id": "k6_3",
+       "name": "RM Reorder Level item wise maintained Days",
+       "uom": "Days",
+       "monthly": 30,
+       "min": 90,
+       "freq": "Monthly",
+       "prorate": false,
+       "agg": "latest",
+       "weight": 13
+      },
+      {
+       "id": "k6_4",
+       "name": "Item wise MRP attained %",
+       "uom": "%",
+       "monthly": 90,
+       "min": 90,
+       "freq": "Monthly",
+       "prorate": false,
+       "agg": "latest",
+       "weight": 13
+      },
+      {
+       "id": "k6_5",
+       "name": "New Supplier Development/Month",
+       "uom": "Nos",
+       "monthly": 3,
+       "min": 90,
+       "freq": "Monthly",
+       "prorate": false,
+       "weight": 12
+      },
+      {
+       "id": "k6_6",
+       "name": "New Market Development/Month",
+       "uom": "Nos",
+       "monthly": 3,
+       "min": 90,
+       "freq": "Monthly",
+       "prorate": false,
+       "weight": 12
+      },
+      {
+       "id": "k6_7",
+       "name": "New RM sourced to reduce cost of existing RM",
+       "uom": "Nos",
+       "monthly": 1,
+       "min": 90,
+       "freq": "Monthly",
+       "prorate": false,
+       "weight": 12
+      },
+      {
+       "id": "k6_8",
+       "name": "Responsible Sourcing Program conducted",
+       "uom": "Nos",
+       "monthly": 3,
+       "min": 90,
+       "freq": "Monthly",
+       "prorate": false,
+       "weight": 12
+      }
+     ]
+    },
+    {
+     "id": "o7",
+     "sno": 7,
+     "name": "DEVARAJ",
+     "designation": "AGM - Audit",
+     "kpis": [
+      {
+       "id": "k7_1",
+       "name": "Monthly MIS submission to Investor after internal Audit before 15th",
+       "uom": "Nos",
+       "monthly": 1,
+       "min": 100,
+       "freq": "Monthly",
+       "prorate": false,
+       "weight": 20
+      },
+      {
+       "id": "k7_2",
+       "name": "ESAP & Impact MIS from HR & audit submitted to Investor ESG team",
+       "uom": "Nos",
+       "monthly": 1,
+       "min": 100,
+       "freq": "Monthly",
+       "prorate": false,
+       "weight": 20
+      },
+      {
+       "id": "k7_3",
+       "name": "Weekly Costing P&L submission to CMD",
+       "uom": "Nos",
+       "monthly": 4,
+       "min": 100,
+       "freq": "Weekly",
+       "prorate": false,
+       "weight": 20
+      },
+      {
+       "id": "k7_4",
+       "name": "Monthly Stock Audit report to CMD before 5th",
+       "uom": "Nos",
+       "monthly": 1,
+       "min": 100,
+       "freq": "Monthly",
+       "prorate": false,
+       "weight": 20
+      },
+      {
+       "id": "k7_5",
+       "name": "Cost Deviation Cause analysis report before 20th of M-1 month",
+       "uom": "Nos",
+       "monthly": 1,
+       "min": 100,
+       "freq": "Monthly",
+       "prorate": false,
+       "weight": 20
+      }
+     ]
+    },
+    {
+     "id": "o8",
+     "sno": 8,
+     "name": "POOVARASAN",
+     "designation": "AGM - Production U-1",
+     "kpis": [
+      {
+       "id": "k8_1",
+       "name": "Pyro Production quantity",
+       "uom": "MT",
+       "monthly": 100,
+       "min": 90,
+       "freq": "Daily",
+       "prorate": true,
+       "weight": 10
+      },
+      {
+       "id": "k8_2",
+       "name": "Online Production",
+       "uom": "MT",
+       "monthly": 1792,
+       "min": 90,
+       "freq": "Daily",
+       "prorate": true,
+       "weight": 10
+      },
+      {
+       "id": "k8_3",
+       "name": "Extruder Production",
+       "uom": "MT",
+       "monthly": 1075,
+       "min": 90,
+       "freq": "Daily",
+       "prorate": true,
+       "weight": 10
+      },
+      {
+       "id": "k8_4",
+       "name": "Extruder Reprocess Standard Vs Actual",
+       "uom": "MT",
+       "monthly": 30,
+       "min": 90,
+       "freq": "Daily",
+       "prorate": true,
+       "lower": true,
+       "weight": 10
+      },
+      {
+       "id": "k8_5",
+       "name": "Lumps Waste %",
+       "uom": "%",
+       "monthly": 1,
+       "min": 90,
+       "freq": "Monthly",
+       "prorate": false,
+       "agg": "latest",
+       "lower": true,
+       "weight": 10
+      },
+      {
+       "id": "k8_6",
+       "name": "Production Rejection Reprocess %",
+       "uom": "%",
+       "monthly": 1,
+       "min": 90,
+       "freq": "Monthly",
+       "prorate": false,
+       "agg": "latest",
+       "lower": true,
+       "weight": 10
+      },
+      {
+       "id": "k8_7",
+       "name": "EHS attainable % Vs actual attained",
+       "uom": "%",
+       "monthly": 90,
+       "min": 100,
+       "freq": "Monthly",
+       "prorate": false,
+       "agg": "latest",
+       "weight": 10
+      },
+      {
+       "id": "k8_8",
+       "name": "Zero Accident attained",
+       "uom": "%",
+       "monthly": 100,
+       "min": 100,
+       "freq": "Monthly",
+       "prorate": false,
+       "agg": "latest",
+       "weight": 10
+      },
+      {
+       "id": "k8_9",
+       "name": "Electricity Cost Per Kg",
+       "uom": "Rs/Kg",
+       "monthly": 3.5,
+       "min": 95,
+       "freq": "Monthly",
+       "prorate": false,
+       "agg": "latest",
+       "lower": true,
+       "weight": 10
+      },
+      {
+       "id": "k8_10",
+       "name": "Workman std Cost/Kg",
+       "uom": "Rs/Kg",
+       "monthly": 2.5,
+       "min": 95,
+       "freq": "Monthly",
+       "prorate": false,
+       "agg": "latest",
+       "lower": true,
+       "weight": 10
+      }
+     ]
+    },
+    {
+     "id": "o9",
+     "sno": 9,
+     "name": "ANGU PRAKASH",
+     "designation": "AGM - Production U-2",
+     "kpis": [
+      {
+       "id": "k9_1",
+       "name": "Pyro Production quantity",
+       "uom": "MT",
+       "monthly": 100,
+       "min": 90,
+       "freq": "Daily",
+       "prorate": true,
+       "weight": 10
+      },
+      {
+       "id": "k9_2",
+       "name": "Online Production",
+       "uom": "MT",
+       "monthly": 1792,
+       "min": 90,
+       "freq": "Daily",
+       "prorate": true,
+       "weight": 10
+      },
+      {
+       "id": "k9_3",
+       "name": "Extruder Production",
+       "uom": "MT",
+       "monthly": 1075,
+       "min": 90,
+       "freq": "Daily",
+       "prorate": true,
+       "weight": 10
+      },
+      {
+       "id": "k9_4",
+       "name": "Extruder Reprocess Standard Vs Actual",
+       "uom": "MT",
+       "monthly": 30,
+       "min": 90,
+       "freq": "Daily",
+       "prorate": true,
+       "lower": true,
+       "weight": 10
+      },
+      {
+       "id": "k9_5",
+       "name": "Lumps Waste %",
+       "uom": "%",
+       "monthly": 1,
+       "min": 90,
+       "freq": "Monthly",
+       "prorate": false,
+       "agg": "latest",
+       "lower": true,
+       "weight": 10
+      },
+      {
+       "id": "k9_6",
+       "name": "Production Rejection Reprocess %",
+       "uom": "%",
+       "monthly": 1,
+       "min": 90,
+       "freq": "Monthly",
+       "prorate": false,
+       "agg": "latest",
+       "lower": true,
+       "weight": 10
+      },
+      {
+       "id": "k9_7",
+       "name": "EHS attainable % Vs actual attained",
+       "uom": "%",
+       "monthly": 90,
+       "min": 100,
+       "freq": "Monthly",
+       "prorate": false,
+       "agg": "latest",
+       "weight": 10
+      },
+      {
+       "id": "k9_8",
+       "name": "Zero Accident attained",
+       "uom": "%",
+       "monthly": 100,
+       "min": 100,
+       "freq": "Monthly",
+       "prorate": false,
+       "agg": "latest",
+       "weight": 10
+      },
+      {
+       "id": "k9_9",
+       "name": "Electricity Cost Per Kg",
+       "uom": "Rs/Kg",
+       "monthly": 3.5,
+       "min": 95,
+       "freq": "Monthly",
+       "prorate": false,
+       "agg": "latest",
+       "lower": true,
+       "weight": 10
+      },
+      {
+       "id": "k9_10",
+       "name": "Workman std Cost/Kg",
+       "uom": "Rs/Kg",
+       "monthly": 2.5,
+       "min": 95,
+       "freq": "Monthly",
+       "prorate": false,
+       "agg": "latest",
+       "lower": true,
+       "weight": 10
+      }
+     ]
+    },
+    {
+     "id": "o10",
+     "sno": 10,
+     "name": "RAVI KUMAR",
+     "designation": "AGM - Quality",
+     "kpis": [
+      {
+       "id": "k10_1",
+       "name": "Post Production rejection %",
+       "uom": "%",
+       "monthly": 1,
+       "min": 90,
+       "freq": "Monthly",
+       "prorate": false,
+       "agg": "latest",
+       "lower": true,
+       "weight": 12
+      },
+      {
+       "id": "k10_2",
+       "name": "No of Complaints from Customer side",
+       "uom": "Nos",
+       "monthly": 2,
+       "min": 100,
+       "freq": "Monthly",
+       "prorate": false,
+       "lower": true,
+       "weight": 11
+      },
+      {
+       "id": "k10_3",
+       "name": "FG Rejection at Customer side",
+       "uom": "Nos",
+       "monthly": 0,
+       "min": 100,
+       "freq": "Monthly",
+       "prorate": false,
+       "lower": true,
+       "weight": 11
+      },
+      {
+       "id": "k10_4",
+       "name": "New Product/Grade Development/Month",
+       "uom": "Nos",
+       "monthly": 2,
+       "min": 50,
+       "freq": "Monthly",
+       "prorate": false,
+       "weight": 11
+      },
+      {
+       "id": "k10_5",
+       "name": "ISO 9001 Compliance %",
+       "uom": "%",
+       "monthly": 100,
+       "min": 95,
+       "freq": "Monthly",
+       "prorate": false,
+       "agg": "latest",
+       "weight": 11
+      },
+      {
+       "id": "k10_6",
+       "name": "Supplier Evaluation Report",
+       "uom": "Nos",
+       "monthly": 1,
+       "min": 100,
+       "freq": "Monthly",
+       "prorate": false,
+       "weight": 11
+      },
+      {
+       "id": "k10_7",
+       "name": "Cost Saving by RM/GM Mix % Change",
+       "uom": "Nos",
+       "monthly": 1,
+       "min": 100,
+       "freq": "Monthly",
+       "prorate": false,
+       "weight": 11
+      },
+      {
+       "id": "k10_8",
+       "name": "New Quality Development/Month",
+       "uom": "Nos",
+       "monthly": 1,
+       "min": 100,
+       "freq": "Monthly",
+       "prorate": false,
+       "weight": 11
+      },
+      {
+       "id": "k10_9",
+       "name": "New Quality System Implementation/Quarter",
+       "uom": "Nos",
+       "monthly": 1,
+       "min": 100,
+       "freq": "Quarterly",
+       "prorate": false,
+       "weight": 11
+      }
+     ]
+    },
+    {
+     "id": "o11",
+     "sno": 11,
+     "name": "SRINIVASAN",
+     "designation": "Manager - Maintenance",
+     "kpis": [
+      {
+       "id": "k11_1",
+       "name": "Online Breakdown Hours due to maintenance issue",
+       "uom": "Hrs",
+       "monthly": 210,
+       "min": 80,
+       "freq": "Daily",
+       "prorate": true,
+       "lower": true,
+       "weight": 20
+      },
+      {
+       "id": "k11_2",
+       "name": "Extruder Breakdown Hours due to maintenance issue",
+       "uom": "Hrs",
+       "monthly": 210,
+       "min": 80,
+       "freq": "Daily",
+       "prorate": true,
+       "lower": true,
+       "weight": 20
+      },
+      {
+       "id": "k11_3",
+       "name": "Overall Maintenance Cost/Kg achieved /Month",
+       "uom": "Rs/Kg",
+       "monthly": 1,
+       "min": 80,
+       "freq": "Monthly",
+       "prorate": false,
+       "agg": "latest",
+       "lower": true,
+       "weight": 20
+      },
+      {
+       "id": "k11_4",
+       "name": "Preventive Maintenance Compliance %",
+       "uom": "%",
+       "monthly": 90,
+       "min": 90,
+       "freq": "Monthly",
+       "prorate": false,
+       "agg": "latest",
+       "weight": 20
+      },
+      {
+       "id": "k11_5",
+       "name": "Spares & Tools Stock Maintenance Compliance %",
+       "uom": "%",
+       "monthly": 90,
+       "min": 100,
+       "freq": "Monthly",
+       "prorate": false,
+       "agg": "latest",
+       "weight": 20
+      }
+     ]
+    },
+    {
+     "id": "o12",
+     "sno": 12,
+     "name": "KAMATCHI",
+     "designation": "Manager - Sales",
+     "kpis": [
+      {
+       "id": "k12_1",
+       "name": "Sales Quantity/Month",
+       "uom": "MT",
+       "monthly": 900,
+       "min": 90,
+       "freq": "Daily",
+       "prorate": true,
+       "weight": 34
+      },
+      {
+       "id": "k12_2",
+       "name": "New Customer Development/Month",
+       "uom": "Nos",
+       "monthly": 1,
+       "min": 100,
+       "freq": "Monthly",
+       "prorate": false,
+       "weight": 33
+      },
+      {
+       "id": "k12_3",
+       "name": "Individual Customer wise Sales Consistency %",
+       "uom": "%",
+       "monthly": 90,
+       "min": 90,
+       "freq": "Monthly",
+       "prorate": false,
+       "agg": "latest",
+       "weight": 33
+      }
+     ]
+    },
+    {
+     "id": "o13",
+     "sno": 13,
+     "name": "MAHESH",
+     "designation": "AGM - Sales",
+     "kpis": [
+      {
+       "id": "k13_1",
+       "name": "Sales Quantity/Month",
+       "uom": "MT",
+       "monthly": 900,
+       "min": 90,
+       "freq": "Daily",
+       "prorate": true,
+       "weight": 17
+      },
+      {
+       "id": "k13_2",
+       "name": "New Customer Development/Month",
+       "uom": "Nos",
+       "monthly": 1,
+       "min": 100,
+       "freq": "Monthly",
+       "prorate": false,
+       "weight": 17
+      },
+      {
+       "id": "k13_3",
+       "name": "New Customers Meeting every Month",
+       "uom": "Nos",
+       "monthly": 10,
+       "min": 90,
+       "freq": "Weekly",
+       "prorate": true,
+       "weight": 17
+      },
+      {
+       "id": "k13_4",
+       "name": "New Customers Meeting every Month in Middle/West Market",
+       "uom": "Nos",
+       "monthly": 5,
+       "min": 90,
+       "freq": "Weekly",
+       "prorate": true,
+       "weight": 17
+      },
+      {
+       "id": "k13_5",
+       "name": "Conference & Networking event Participation/Month",
+       "uom": "Nos",
+       "monthly": 2,
+       "min": 90,
+       "freq": "Monthly",
+       "prorate": true,
+       "weight": 16
+      },
+      {
+       "id": "k13_6",
+       "name": "Individual Customer wise Sales Consistency %",
+       "uom": "%",
+       "monthly": 90,
+       "min": 90,
+       "freq": "Monthly",
+       "prorate": false,
+       "agg": "latest",
+       "weight": 16
+      }
+     ]
+    },
+    {
+     "id": "o14",
+     "sno": 14,
+     "name": "SARAVANAN",
+     "designation": "Manager - Accounts",
+     "kpis": [
+      {
+       "id": "k14_1",
+       "name": "Accounts entry completion within 48 hrs of all transactions",
+       "uom": "Nos",
+       "monthly": 30,
+       "min": 95,
+       "freq": "Daily",
+       "prorate": true,
+       "weight": 25
+      },
+      {
+       "id": "k14_2",
+       "name": "GST & Tax filing as per Legal Norms compliance",
+       "uom": "Nos",
+       "monthly": 1,
+       "min": 100,
+       "freq": "Monthly",
+       "prorate": false,
+       "weight": 25
+      },
+      {
+       "id": "k14_3",
+       "name": "Deviation found in third party audit every quarter",
+       "uom": "Nos",
+       "monthly": 3,
+       "min": 90,
+       "freq": "Quarterly",
+       "prorate": false,
+       "lower": true,
+       "weight": 25
+      },
+      {
+       "id": "k14_4",
+       "name": "Quarterly Third Party balance confirmation mail",
+       "uom": "Nos",
+       "monthly": 1,
+       "min": 100,
+       "freq": "Quarterly",
+       "prorate": false,
+       "weight": 25
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "log": {},
+ "remarks": {},
+ "entries": [],
+ "submissions": {},
+ "calendar": {
+  "off": [
+   0
+  ],
+  "holidays": []
+ },
+ "remindAt": "18:00"
+}
